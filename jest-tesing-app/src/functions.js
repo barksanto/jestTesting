@@ -3,6 +3,13 @@ const functions = {
   subtract: function (num1, num2) {
     return num1 + num2
   }, // ES5 function declaration
+  isNull: () => null,
+  checkValue: (x) => x,
+  createUser: () => {
+    const user = { firstName: "Barkley" }
+    user["lastName"] = "Santo"
+    return user
+  },
 }
 
 module.exports = functions
