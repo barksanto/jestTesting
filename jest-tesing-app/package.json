@@ -1,0 +1,24 @@
+{
+  "name": "jesttestingapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tests": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barksanto/jestTesting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barksanto/jestTesting/issues"
+  },
+  "homepage": "https://github.com/barksanto/jestTesting#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
